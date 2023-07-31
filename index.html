@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      class="header bg-image"
+      style="
+        background-image: url('./image/Header.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <!-- Add your header content here -->
+      <!-- <img src="./header.png" class="" alt="Big Image" /> -->
+      <div class="row">
+        <div class="col-md-2">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/Logo1.png" />
+          </div>
+        </div>
+        <div class="col-md-5 p-0 textHeader">
+          <div class="d-flex justify-content-center align-items-center h-200">
+            <div class="text-white">
+              <h5 class="mb-3">CỔNG THÔNG TIN ĐIỆN TỬ</h5>
+              <h2 class="mb-4">CỤC XĂNG DẦU - TỔNG CỤC KỸ THUẬT</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 HCHeader">
+          <img class="h-200" src="./image/Huy_Chuong.png" />
+        </div>
+        <div class="col-3 headerImage">
+          <img class="mot" src="./image/La_co.png" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="container-fuild" style="background: #0471e1">
+      <!-- Add container class here -->
+      <nav class="navbar navbar-expand-lg navbar-dark nav-content">
+        <a class="navbar-brand" href="#">
+          <!-- Add your website logo/icon here -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fuild">
+          <div class="row">
+            <div class="col-12 center-col">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="#">
+                  <img src="./image/Icon1.png" width="34" height="34" alt="" />
+                </a>
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenu"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      GIỚI THIỆU
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenu"
+                    >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenu"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      TIN TỨC,SỰ KIỆN
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenu"
+                    >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenu"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      CHỈ ĐẠO,HƯỚNG DẪN
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenu"
+                    >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#"
+                      role="button"
+                      aria-expanded="false"
+                    >
+                      VĂN BẢN QUY PHẠM PHÁP
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#"
+                      role="button"
+                      aria-expanded="false"
+                    >
+                      LUẬT SÁCH,TÀI LIỆU
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NGHIÊN CỨU,TRAO ĐỔI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ĐĂNG NHẬP</a>
+                  </li>
+                  <!-- Add more navbar items as needed -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fuild home-news-content define-page">
+      <div class="grid text-center row">
+        <div class="g-col-2 page-title">Trang chủ</div>
+        <div class="g-col-7" id="scroll-container">
+          <div id="marquee">
+            Tăng cương xây dựng chỉnh đống đảng và hệ thống chính trị trong
+            sạch, vững mạnh
+          </div>
+        </div>
+        <div class="g-col-3">Thứ 7, ngày 6 năm 2023 - 12:25:05</div>
+      </div>
+    </div>
+    <section class="content-section nav-content">
+      <div class="container-fluid p-0">
+        <div class="row p-0">
+          <div class="col p-0">
+            <div
+              class="p-5 text-center bg-image"
+              style="
+                background-image: url('./image/baner1.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 67px;
+              "
+            ></div>
+          </div>
+          <div class="row p-0">
+            <div class="col-9">
+              <h1 class="font-home">TIN NỔI BẬT</h1>
+            </div>
+            <div class="col-3">
+              <div class="input-group rounded">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Từ khóa tìm kiếm"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                  style="border: none"
+                />
+                <span
+                  class="input-group-text border-0"
+                  style="background: white"
+                >
+                  <i class="fas fa-search" style="color: red"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="row p-0">
+            <div class="col-5">
+              <div style="max-width: 32rem">
+                <div
+                  class="bg-image hover-overlay shadow-1-strong ripple rounded-5"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="./image/img-1.png"
+                    class="img-fluid"
+                    style="height: 329px; width: 548px"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"
+                    ></div>
+                  </a>
+                </div>
+                <!-- Article title and description -->
+                <a href="" class="text-dark text-dec">
+                  <h5 style="color: #152f77; font-weight: bold; margin: 0">
+                    Tặng thiết bị phòng hóa nghiệm xăng dầu cho quân đội hoàng
+                    gia Campuchia
+                  </h5>
+                  <p
+                    class="text-dec"
+                    style="font-size: small; font-weight: bold"
+                  >
+                    Ngày 22-6, tại cửa khẩu Quốc tể Mộc Bài (Tây Ninh), Cục xăng
+                    dầu, đại diện Tổng cục Hậu cần (Bộ quốc Việt Nam)...
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <a href="" class="text-dark text-dec">
+                <div class="row b-1">
+                  <div class="col-4 p-0">
+                    <img src="./image/img-2.png" class="img-width" />
+                  </div>
+
+                  <div class="col-8 p-0">
+                    <p class="mb-2">
+                      <strong
+                        >Tổng cục hậu cầu kiểm tra kết quả thực hiện nhiệm vụ 6
+                        tháng đầu năm 2023 tại kho 182...</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="text-dark text-dec">
+                <div class="row b-1 pa-5">
+                  <div class="col-4 p-0">
+                    <img src="./image/img-3.png" class="img-width" />
+                  </div>
+                  <div class="col-8 p-0">
+                    <p class="mb-2">
+                      <strong
+                        >Tổng cục hậu cầu kiểm tra kết quả thực hiện nhiệm vụ 6
+                        tháng đầu năm 2023 tại kho 182...</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="text-dark text-dec">
+                <div class="row b-1 pa-5">
+                  <div class="col-4 p-0">
+                    <img src="./image/img-4.png" class="img-width" />
+                  </div>
+
+                  <div class="col-8 p-0">
+                    <p class="mb-2">
+                      <strong
+                        >Tổng cục hậu cầu kiểm tra kết quả thực hiện nhiệm vụ 6
+                        tháng đầu năm 2023 tại kho 182...</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="text-dark text-dec">
+                <div class="row b-1 pa-5">
+                  <div class="col-4 p-0">
+                    <img src="./image/img-5.png" class="img-width" />
+                  </div>
+
+                  <div class="col-8 p-0">
+                    <p class="mb-2">
+                      <strong
+                        >Tổng cục hậu cầu kiểm tra kết quả thực hiện nhiệm vụ 6
+                        tháng đầu năm 2023 tại kho 182...</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="text-dark text-dec">
+                <div class="row pa-5">
+                  <div class="col-4 p-0">
+                    <img src="./image/img-6.png" class="img-width" />
+                  </div>
+
+                  <div class="col-8 p-0">
+                    <p class="mb-2">
+                      <strong
+                        >Tổng cục hậu cầu kiểm tra kết quả thực hiện nhiệm vụ 6
+                        tháng đầu năm 2023 tại kho 182...</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <div class="card" style="height: 423px">
+                <div class="nav-not">
+                  <a class="navbar-brand" href="#">
+                    <img src="./image/logo.png" width="30" height="30" alt="" />
+                  </a>
+                  <span style="font-weight: bold; color: red"
+                    >THÔNG BÁO, CHỈ ĐẠO</span
+                  >
+                </div>
+
+                <hr style="margin: 0px" />
+                <ul class="butlet">
+                  <li>
+                    <a class="text-color">
+                      Thông cáo chung Hội nghị Hợp tác và phát triển các tình
+                      hình biên giới Việt Nam
+                    </a>
+                    <span class="font-italic"> (23/6/2023-439 CH) </span>
+                  </li>
+                  <li>
+                    <a class="text-color">
+                      Thông cáo chung Hội nghị Hợp tác và phát triển các tình
+                      hình biên giới Việt Nam
+                    </a>
+                    <span class="font-italic"> (23/6/2023-439 CH) </span>
+                  </li>
+                  <li>
+                    <a class="text-color">
+                      Thông cáo chung Hội nghị Hợp tác và phát triển các tình
+                      hình biên giới Việt Nam
+                    </a>
+                    <span class="font-italic"> (23/6/2023-439 CH) </span>
+                  </li>
+                  <li>
+                    <a class="text-color">
+                      Thông cáo chung Hội nghị Hợp tác và phát triển các tình
+                      hình biên giới Việt Nam
+                    </a>
+                    <span class="font-italic"> (23/6/2023-439 CH) </span>
+                  </li>
+                  <li>
+                    <a class="text-color">
+                      Thông cáo chung Hội nghị Hợp tác và phát triển các tình
+                      hình biên giới Việt Nam
+                    </a>
+                    <span class="font-italic"> (23/6/2023-439 CH) </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main Content -->
+    <div class="container-fuild home-news-content">
+      <section class="row banner-layout">
+        <div class="col-4">
+          <img class="banner-image" src="./image/no1.png" />
+        </div>
+        <div class="col-4">
+          <img class="banner-image" src="./image/no2.png" />
+        </div>
+        <div class="col-4">
+          <img class="banner-image" src="./image/no3.png" />
+        </div>
+      </section>
+
+      <section class="row grid-news">
+        <section class="col-9 grid-news-left">
+          <section class="row">
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-first-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+            <!-- once item -->
+            <section class="col-6">
+              <div class="card card-boder">
+                <div class="card-header">
+                  <img
+                    src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                    class="card-header-icon float-left mr-2"
+                  />
+                  <span class="card-header-title">Hệ thống, phần mềm</span>
+                </div>
+                <div class="card-body">
+                  <div class="card-first-item">
+                    <img
+                      src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                      class="card-first-item-image"
+                    />
+                    <div class="card-first-item-content">
+                      <p class="card-first-item-title">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia
+                      </p>
+
+                      <p class="card-first-item-description">
+                        Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                        hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho
+                        quân đội hoàng gia Tặng thiết bị phòng hoá nghiệm xăng
+                        dầu cho quân đội hoàng gia
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="card-any-item">
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                    <li class="card-any-item-title">
+                      Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                      gia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- end -->
+          </section>
+        </section>
+        <section class="col-3 grid-news-right">
+          <!-- hệ thống phần mềm -->
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                class="card-header-icon float-left mr-2"
+              />
+              <span class="card-header-title">Hệ thống, phần mềm</span>
+            </div>
+            <div class="card-body">
+              <div class="list-group group-superlink">
+                <a href="#" class="list-group-item">
+                  <img
+                    src="./image/icon-1.png"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thông tin chỉ đạo điều hành
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="./image/icon-2.png"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title"
+                    >Hệ thống thư điện tử</span
+                  >
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/02/99/16/09/1000_F_299160906_dv13wNbKE7dh5MskJQyCBQ7ujdcpJvtn.jpg"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống quản lý văn bản hồ sơ công việc
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/02/99/16/09/1000_F_299160906_dv13wNbKE7dh5MskJQyCBQ7ujdcpJvtn.jpg"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống quản lý văn bản hồ sơ công việc
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/02/99/16/09/1000_F_299160906_dv13wNbKE7dh5MskJQyCBQ7ujdcpJvtn.jpg"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống quản lý văn bản hồ sơ công việc
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/02/99/16/09/1000_F_299160906_dv13wNbKE7dh5MskJQyCBQ7ujdcpJvtn.jpg"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống quản lý văn bản hồ sơ công việc
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/02/99/16/09/1000_F_299160906_dv13wNbKE7dh5MskJQyCBQ7ujdcpJvtn.jpg"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống quản lý văn bản hồ sơ công việc
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tiện ích -->
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                class="card-header-icon float-left mr-2"
+              />
+              <span class="card-header-title">Tiện ích</span>
+            </div>
+            <div class="card-body">
+              <div class="list-group group-superlink">
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống tin chỉ đạo điều hành
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống tin chỉ đạo điều
+                  </span>
+                </a>
+                <a href="#" class="list-group-item">
+                  <img
+                    src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                    class="img-thumbnail float-left mr-2"
+                  />
+                  <span class="list-group-item-title">
+                    Hệ thống tin chỉ đạo điều
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--trang/ cổng TTĐT các đơn vị-->
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://inhoangkien.vn/wp-content/uploads/2021/03/Logo-t%E1%BB%95ng-c%E1%BB%A5c-k%E1%BB%B9-thu%E1%BA%ADt-123-01-1024x1003.jpg"
+                class="card-header-icon float-left mr-2"
+              />
+              <span class="card-header-title">TRANG/CỔNG TTĐT CÁC ĐƠN VỊ</span>
+            </div>
+            <div class="card-body card-select">
+              <select
+                class="form-select"
+                style="font-size: small"
+                aria-label="Default select example"
+              >
+                <option selected>
+                  -- Liên kết trang/cổng thông tin điện tử --
+                </option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./image/img-7.png"
+              class="card-header-icon float-left mr-2 card-image"
+            />
+          </div>
+        </section>
+      </section>
+
+      <section class="row banner-layout p-0">
+        <div class="col-6 banner-grid-2">
+          <img class="banner-image" src="./image/img-8.png" />
+        </div>
+        <div class="col-6 banner-grid-2">
+          <img class="banner-image" src="./image/img-9.png" />
+        </div>
+      </section>
+
+      <section class="row grid-news">
+        <section class="col-6">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://img.freepik.com/free-vector/flat-clapperboard-icon_1063-38.jpg?w=2000"
+                class="card-header-icon float-left mr-2"
+              />
+              <span class="card-header-title">Chuyên mục video</span>
+            </div>
+            <div class="card-body">
+              <div class="card-first-item">
+                <img
+                  src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                  class="card-first-item-image"
+                />
+                <div class="card-first-item-content">
+                  <p class="card-first-item-title">
+                    Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                    gia
+                  </p>
+
+                  <p class="card-first-item-description">
+                    Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                    gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                    hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân
+                    đội hoàng gia
+                  </p>
+                </div>
+              </div>
+              <ul class="card-any-item">
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="col-6">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://brandeps.com/icon-download/I/Images-icon-vector-01.svg"
+                class="card-header-icon float-left mr-2"
+              />
+              <span class="card-header-title">Chuyên mục hình ảnh</span>
+            </div>
+            <div class="card-body">
+              <div class="card-first-item">
+                <img
+                  src="https://file3.qdnd.vn/data/images/0/2023/07/19/trinhdung/dsc_4181.jpg?dpi=150&mode=crop&anchor=topcenter&quality=100&w=600"
+                  class="card-first-item-image"
+                />
+                <div class="card-first-item-content">
+                  <p class="card-first-item-title">
+                    Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                    gia
+                  </p>
+
+                  <p class="card-first-item-description">
+                    Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng
+                    gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội
+                    hoàng gia Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân
+                    đội hoàng gia
+                  </p>
+                </div>
+              </div>
+              <ul class="card-any-item">
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+                <li class="card-first-item-title">
+                  Tặng thiết bị phòng hoá nghiệm xăng dầu cho quân đội hoàng gia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="row grid-news">
+        <section class="col-6">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-header-title">văn bản mới</span>
+            </div>
+            <div class="card-body"></div>
+          </div>
+        </section>
+        <section class="col-3">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-header-title">Chuyên mục khác</span>
+            </div>
+            <div class="card-body"></div>
+          </div>
+        </section>
+
+        <section class="col-3">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-header-title">Thống kê truy cập</span>
+            </div>
+            <div class="card-body"></div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <footer
+      class="bg-image footer"
+      style="
+        background-image: url('footer.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="d-flex justify-content-center h-2">
+        <div class="col-2 img-footer">
+          <img src="./image/logo.png" />
+        </div>
+        <div class="col-10 img-footer hai">
+          <div class="row d-flex justify-content-center footer-center-text">
+            <h5>
+              CỔNG THÔNG TIN ĐIỆN TỬ - CỤC XĂNG DẦU - TỔNG CỤC HẬU CẦN- QUÂN ĐỘI
+              NHÂN DÂN VIỆT NAM
+            </h5>
+            <span class="text-white">
+              Số 5, Nguyễn Chi Phương, Ba Đình, Hà Nội
+            </span>
+            <span> 2003 Bản quyền thuộc cục xăng dầu - Tổng cục Hậu Cần </span>
+            <span class="text-white"
+              >Chỉ được phát hành thông tin từn website này khi có sự đồng ý
+              bằng văn bản của Cục Xăng dầu - Tổng cục Hậu cần
+            </span>
+            <h6>Chủ nhât, ngày 25 tháng 6 năm 2023/ 13:36:57</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
